@@ -1,0 +1,6 @@
+ <!--
+  <div id="newshomecolumn">
+    <h1>News</h1>
+    <p><span id="newsticker"><?php if ( function_exists('insert_newsticker') ) { insert_newsticker(); } ?><span></p>
+  </div>
+-->

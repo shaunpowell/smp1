@@ -1,0 +1,301 @@
+/*
+Theme Name: Review
+Theme URI: http://wtheme.com/
+Description: A Review Theme by WTheme.com
+Version: 1.0
+Author: Bob
+Author URI: http://wtheme.com
+Tags: blue, custom index, fixed width, two columns, widgets
+
+*/
+
+
+/* ---- SEXY BODY --- */
+* { padding:0; margin:0; list-style:none; text-decoration:none; }
+body { background:#1f436e url(images/bkg.gif) repeat-x; font:12px Arial; color:#333;}
+
+/* ---- MISC --- */
+.clear { clear:both;}
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left ;}
+code { font: 12px 'Courier New', Courier, Fixed; background:#d9e0e8; display:block; padding:5px; border:1px solid #bcc7d3; }
+acronym, abbr, span.caps { font-size: 0.9em; letter-spacing: .07em; }
+html>body .post ul { margin-left: 0px; padding: 0 0 0 30px; list-style: none; padding-left: 10px; text-indent: -10px; }
+html>body .post li { margin: 7px 0 8px 10px; }
+.post ul li {list-style-type: circle; padding: 2px 0 2px 5px}
+.post ol { padding: 5px 0 5px 20px; margin:10px auto 10px; }
+.post ol li { list-style:decimal; }
+ul
+{
+list-style-type: circle;
+
+}
+.wp-smiley { border:none;}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+
+
+/* ---- TOP --- */
+#wrapper { width:938px; margin: 20px auto 0;}
+#top { width:938px; height:100px; background:url(images/bkg-header-2.gif) no-repeat; }
+#logo { width:400px; float:left; }
+
+#logo h1 { text-indent:-9999px;}
+#logo h1 a { display:block; height:100px; background:url(images/lelogo2.gif) no-repeat; }
+/*#logo h1 { font:26px Georgia, "Times New Roman", Times, serif; margin:20px 0 0 15px;}
+#logo h1 a { color:#fff;}*/
+#stop { width:500px; float:right; height:64px;}
+#stop { float:right; width: 351px; height: 30px; background: url(images/search.png) no-repeat; margin:20px 25px 0 0 !important; margin:20px 15px 0 0; }
+#stop #s { float: left; margin: 5px 0 0 65px; border: 0; width: 245px; background: none; color:#333; }
+#stop #go { float: right; width:32px; height:25px;  }
+
+/* ---- NAV-PAGES --- */
+#nav-pages { width:938px; height:30px; background:#073b6c; font:bold 12px Arial, Tahoma, Verdana; }
+#nav-pages ul li { float:left; margin:0 0 0 10px; display: inline; line-height:30px; text-transform:uppercase; }
+#nav-pages ul li a { float:left;display: block; padding:0 10px 0 10px; color:#fff;}
+#nav-pages ul li a:hover{ color:#fff; display:block; background:#483578; color:#ffffff; margin-top:4px; height:20px; line-height:20px; border-radius: 15px;}
+#nav-pages ul li.current_page_item a{ float:left;display:block; background:#483578; color:#ffffff; margin-top:4px; height:20px; line-height:20px; border-radius: 15px;}
+
+/* ---- NAV-CATEGORIES --- */
+#nav-categories { width:938px; height:25px; background:#4b84bc; font:12px "Trebuchet MS"; }
+#nav-categories ul li { float:left; margin:0 0 0 10px; display: inline; line-height:25px; text-transform:uppercase;  }
+#nav-categories ul li a { padding:0 10px 0 0; color:#fff; }
+#nav-categories ul li a:hover{ color:#ccc;}
+
+/* ---- MAIN STRUCTURE --- */
+#content { width:908px; background:#dce2ea url(images/bkg-content.gif) repeat-x; padding:15px;}
+#left { width:645px !important; width:640px; float:left;}
+#left p { line-height:18px; padding-bottom:10px;}
+
+/* ---- POST - FIRST LOOP --- */
+.post { margin-play:block; bottom:15px;}
+.post h1 { disfont: normal 18px Georgia, "Times New Roman", Times, serif; color:#36597b; margin-bottom:10px; border-bottom:1px solid #dadada; padding-bottom:5px;}
+.post h2 { disfont: normal 18px Georgia, "Times New Roman", Times, serif; color:#36597b; margin-bottom:10px; border-bottom:1px solid #dadada; padding-bottom:5px;}
+.post h2 a {display:block; font: normal 18px Georgia, "Times New Roman", Times, serif; color:#36597b; margin-bottom:10px;  padding-bottom:5px;}
+.post h2 a:hover { color:#000;}
+.post p.info { margin:10px 0 0 0; text-transform:uppercase; font-size:11px; color:#666; word-spacing:1px;}
+.post a, .post p.info a { color:#36597b; font-weight:700;}
+.post a:hover, .post p.info a:hover { color:#003366;}
+.post p { font:12px Verdana, Arial, Helvetica, sans-serif;}
+.postmetadata { display:block; background:#fff url(images/category.gif) no-repeat 10px 10px; padding:5px 5px 5px 35px; border:1px solid #ccd4df;  }
+#latest { background:url(images/latest.gif) no-repeat left; width:645px !important; width:635px; height:32px; margin:0 0 10px 0; font:14px "Trebuchet MS";}
+#recent { background:url(images/recent.gif) no-repeat left; width:645px !important; width:635px; height:32px; margin:0 0 10px 0; font:14px "Trebuchet MS";}
+span.aleft { color:#333; padding:7px 0 0 10px; float:left;}
+span.aleftrecent { color:#fff; padding:7px 0 0 10px; float:left;}
+span.aright { float:right; text-indent:-9999px;}
+span.aright a { display:block; background:url(images/lfeed.gif) no-repeat; width:16px; height:16px; margin-top:8px; }
+.post img { border:1px solid #dadada;}
+
+/* ---- POST - SECOND LOOP (BOX)--- */
+.loop h2 a { display:block; font: bold 14px Georgia, "Times New Roman", Times, serif; color:#fff; background:#4b84bc; padding:5px;}
+.loop p { padding-top:5px;}
+.lleft { border:3px solid #ccd4df; padding:5px; width:300px; margin-bottom:10px; float:left; background:#fff;}
+.lright { border:3px solid #ccd4df; padding:5px; width:300px; margin-bottom:10px; float:right; background:#fff;}
+.meta { height:28px; background:#e3e8ed; line-height:28px;}
+.meta a { color:#255f99;}
+.meta a:hover { text-decoration:underline; color:#003366;}
+.readmore { width:115px; float:left; background:url(images/readmore.gif) no-repeat left; text-align:center; text-transform:uppercase; font-size:11px; }
+.comment { float:right; padding-right:10px; }
+
+/* ---- POST - THIRD LOOP --- */
+.re-post { background:#fff; padding:10px; margin:15px 1px 0 1px; border:1px solid #bcc7d3;}
+.t3rdloop { display:block; background:#e7ede3; margin-bottom:10px; border:1px solid #dadada; padding:5px; margin-bottom:10px; }
+.re-post h2 a { font: bold 12px Verdana, Arial, Helvetica, sans-serif; color:#576051;  }
+.re-post p.info { margin:10px 0 10px 0; text-transform:uppercase; font-size:11px; color:#666; word-spacing:1px;}
+.re-post p.info a { color:#36597b; font-weight:700;}
+.re-post p.info a:hover { color:#003366;}
+.re-post p { font:11px Verdana, Arial, Helvetica;}
+.releft { float:left;}
+.reright { float:right;}
+.re-post .reright a{ color:#006633; font-weight:normal;}
+.re-post a { font-weight:bold; color:#006633;}
+.re-post a:hover { color:#006699;}
+
+/* ---- PAGES - NEXT PREVIOUS --- */
+.navigation { background:#fff; border:1px solid #bcc7d3; padding:5px; margin-top:15px; display:block; }
+.navigation a { color:#006699;  font-weight:bold;}
+
+/* ---- FEATURED POSTS --- */
+#featured { width:630px; background:#fff; border:3px solid #ccd4df; padding:5px; margin-bottom:15px; }
+#featured h2.featured { display:block; padding:5px; font: 14px "Trebuchet MS"; color:#fff; background:#d9e0e8; margin-bottom:2px; }
+
+/* ---- FEATURED POSTS --- */
+#ads { display:block; padding:10px; background:#fff; }
+#ads ul.ads { float:right; }
+#ads ul.ads li a { float:left; padding:0; margin:0; display:block; }
+#ads ul.ads li a:hover { border:1px solid #333;}
+
+/* ---- SIDEBAR --- */
+#right { width:250px; float:right; line-height:18px; font:12px "Trebuchet MS";}
+#sidebar h2 { width:241px; padding:5px 5px 5px 10px; font: 17px "Trebuchet MS"; background:#dadacf;}
+#sidebar ul {}
+#sidebar ul li {}
+#sidebar ul li  a {color:#333; display:block; padding:5px 0 5px 0; border-bottom:1px solid #dadada;}
+#sidebar ul li  a:hover { background:#f7f7f7;}
+#sidebar ul li ul { width:240px; background:#f0f0eb; border:3px solid #dadacf; padding:5px; margin-bottom:10px;}
+#sidebar ul li ul li { display:inline; }
+#sidebar ul li ul li a { color:#333; display:block; padding:5px 0 5px 0; border-bottom:1px solid #dadada;}
+#sidebar ul li ul li a:hover { background:#f7f7f7;}
+.textwidget {width:240px; background:#f0f0eb; border:3px solid #dadacf; padding:5px; margin-bottom:10px;}
+#calendar_wrap {width:240px; background:#f0f0eb; border:3px solid #dadacf; padding:5px; margin-bottom:10px;}
+#calendar_wrap table#wp-calendar { width:100%; text-align:center;}
+
+/* ---- COMMENTS --- */
+h3#comments, h3#respond { font:13px Verdana, Arial, Helvetica, sans-serif; margin-bottom:30px; background:#e3e8ed; display:block; padding:5px; border:1px dashed #ccc;} 
+.box {background:#fff; padding:10px; margin:20px 1px 0 1px; border:1px solid #bcc7d3;}
+.box a { color:#70705c; text-transform:uppercase;}
+.box a:hover { color:#4d4d3b;}
+.box ol.commentlist { width:620px; clear:both; border-left:1px solid #e3e8ed; border-right:1px solid #e3e8ed; border-bottom:1px solid #e3e8ed; margin-bottom:10px;  }
+.box ol.commentlist li.alt { background:#f6f7f9; color:#333; padding:5px; list-style:none; border-top:1px solid #e3e8ed; }
+.box ol.commentlist li { color:#333; padding:5px; border-top:1px solid #e3e8ed;  }
+.box ol.commentlist li .gravatar { float:left; border:3px double #dadada; width:50px; margin-right:10px;}
+.box ol.commentlist li .comments { float:right; width:530px; }
+.box ol.commentlist li .comments p { padding-top:10px;}
+#commentform { margin-left:10px;}
+#author,#email,#url,#comment { color: #333; border: 1px solid #d7d7d7; width:400px; display:block; padding: 4px; margin-bottom: 0.6em; background: #fff url(images/inputbg.gif) repeat-x top left;}
+#author:focus,#email:focus,#url:focus,#author.sffocus ,#email.sffocus ,#url.sffocus  { color: #000; border: 1px solid #afc9de; width:400px; display:block; padding: 4px; margin-bottom: 0.6em; background: #fff url(images/inputbg.gif) repeat-x top left;}
+#comment { width:520px;}
+#comment:focus,#comment.sffocus { color: #000; border: 1px solid #afc9de; width:520px; display:block; padding: 4px; margin-bottom: 0.6em; background: #fff url(images/inputbg.gif) repeat-x top left;}
+.comment-box-submit{ -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; padding: 6px; margin-right: 2px; border:1px solid #009999; color: #fff; background-color: #4b84bc;font-weight:bold; }
+.comment-box-submit:hover{ -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; padding: 6px; margin-right: 2px; border:1px solid #333333; color: #fff; font-weight:bold; background-color: #333333; }
+
+/* ---- FOOTER --- */
+#footer {width:938px; height:30px; background:#487aac; border-top:5px solid #28598a; line-height:30px;}
+#footer p { padding-left:15px; color:#fff;}
+#footer p a { color:#d9e0e8;}
+
+#feetimage { 
+	position: relative;
+	top: 10px;
+	width:284px; 
+	float:left; 
+	display:block; 
+	height:289px; 
+	background: url(images/feet.png) no-repeat;
+	border-radius: 15px;	
+	}
+	
+#kidsbeachimage {
+	position: relative;
+	top: 10px;
+	width:325px; 
+	float:left; 
+	display:block; 
+	height:214px; 
+	background: url(images/kidsbeach.png) no-repeat;
+	border-radius: 15px;		
+	}
+	
+#carseatimage {
+	position: relative;
+	top: 10px;
+	width:325px; 
+	float:left; 
+	display:block; 
+	height:325px; 
+	background: url(images/carseat.png) no-repeat; 
+	border-radius: 15px;	
+	}
+
+#container {
+	position: relative; 
+	width: 850px; 
+	margin-left: auto; 
+	margin-right: auto;
+	height: 400px;
+	}
+
+#leftcolumn {
+    position: absolute;
+	top: 35px; 
+	left:50px; 
+	width: 350px;
+	/*height: 400px;
+	/*background: url(images/feet.png) no-repeat; */
+
+    }
+
+#rightcolumn {
+    position: absolute;
+	width: 350px;
+	top: 35px;
+	right: 0; 
+	
+    }
+	
+
+#blocktext{
+	color:#ffffff;
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	padding: 10px 5px 5px 15px;
+	}
+	
+#block {
+	height: auto;
+	width: 350px;
+	border-radius: 15px;
+	background-color: #28598A;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
+	
+	}
+	/*
+	list-style-type: none; 
+	padding: 5px 0 5px 10px;
+	color:#36597b;
+	text-align:left;
+	font-family:"Times New Roman", Times, serif;
+	font-size:25px;
+	margin-top: 0.5em;
+	line-height:100%
+	}
+	
+ul
+{
+list-style-type: circle;
+
+}
+
+

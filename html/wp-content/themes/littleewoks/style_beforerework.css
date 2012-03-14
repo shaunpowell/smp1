@@ -1,0 +1,109 @@
+/*
+Theme Name: Review
+Theme URI: http://wtheme.com/
+Description: A Review Theme by WTheme.com
+Version: 1.0
+Author: Bob
+Author URI: http://wtheme.com
+Tags: blue, custom index, fixed width, two columns, widgets
+
+*/
+/* ---- SEXY BODY --- */
+* { padding:0; margin:0; list-style:none; text-decoration:none; }
+body { 	background: none repeat scroll 0 0 #A5A5FA;/*#AAAAAA;	/*background:#1f436e url(images/bkg.gif) repeat-x; */	font:12px Arial; 	color:#333;	}
+/* ---- MISC --- */
+.clear { clear:both;}
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left ;}
+code { font: 12px 'Courier New', Courier, Fixed; background:#d9e0e8; display:block; padding:5px; border:1px solid #bcc7d3; }
+acronym, abbr, span.caps { font-size: 0.9em; letter-spacing: .07em; }
+/* ---- TOP --- */
+#wrapper { width:938px; margin: 20px auto 0;}
+#top { 
+	width:938px; 
+	height:150px; /*110px*/ 
+    border-radius: 10px 10px 0 0;  
+	background-color: #28598A;		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#073B6C', endColorstr='#487AAC'); 	
+	background: -moz-linear-gradient(top, #073B6C, #487AAC); /*#8BADCF, #3E6994);  */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from( #073B6C, #487AAC));/*#8BADCF), to(#3E6994));  */	behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	
+	}
+#logo { 		/*top: 10px;*/	width:500px; 	float:left; 	display:block; 	height:150px; 		background: url(images/littleewoks_header_noface.png) no-repeat; }#socialdetails {	float: right;		position: relative;	width: 350px;	top: 10px;	right: 10px; }#facebookimg { 	margin: 10px 32px 10px 10px;	width:144px; 	float:right; 	display:block; 	height:44px; 		background: url(images/find_us_on_facebook_badge.gif) no-repeat;	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#twittericon {	margin: 20px;    top: 40px;	display:block;	float:right; 	}		/*float:left; 	font-family: "Comic Sans MS";		color: #483578;}#logo h1 {	font-size: 48px;		padding: 20px 0px 0px 30px;	/*padding: 25px 0px 0px 300px;/*30px;* /		text-shadow: 1.5px 0 black;/*, 0 1px black, 1px 0 black, 0 -1px black;* /		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#logo h2 {	font-size: 26px;		padding: 0px 0px 0px 30px;	/*padding: 0px 0px 0px 225px;* /		text-shadow: 1px 0 black;/*, 0 1px black, 1px 0 black, 0 -1px black;* /		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');		}*/
+/* ---- NAV-PAGES --- */
+#nav-pages { width:938px; height:35px; background:#487AAC;/*#073b6c;*/ font: 14px "Comic Sans MS";}#nav-pages li {position: relative;} /*test*/
+#nav-pages ul li { float:left; margin:0 0 0 10px; display: inline; line-height:30px; text-transform:uppercase; }
+#nav-pages ul li a { float:left;display: block; padding:0 10px 0 10px; color:#fff; margin-top:4px;}
+#nav-pages ul li a:hover{ 		position: relative;		color:#fff; 		display:block; 		background:#483578; 		color:#ffffff; 		margin-top:8px; 		height:27px; 		line-height:20px; 		border-radius: 5px 5px 0px 0px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');		}
+#nav-pages ul li.current_page_item a{ 		position: relative;		float:left;		display:block; 		background:#483578; 		color:#ffffff; 		margin-top:8px; 		height:27px; 		line-height:20px; 		border-radius: 5px 5px 0px 0px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');		}
+/* ---- MAIN STRUCTURE --- */
+#content { width:908px; background:#dce2ea url(images/bkg-content.gif) repeat-x; padding:15px;}
+#left { width:645px !important; width:640px; float:left;}
+#left p { line-height:18px; padding-bottom:5px;}
+/* ---- POST - FIRST LOOP --- */.post { 	margin-play:block; 	bottom:15px;	}
+.post h1 { 	/*disfont: normal 18px Georgia, "Times New Roman", Times, serif; */	color:#36597b; 	margin-bottom:10px; 	border-bottom:1px solid #dadada; 	padding-bottom:5px;	font:24px Arial; 	font-weight: 700;	}.post p { 	font:12px Arial; 	}
+/* ---- FOOTER --- */
+#footer {	width:938px; 	height:30px; 	background:#487aac; 	border-top:5px solid #28598a; 	line-height:30px;	}
+#footer p { padding:5px 10px; color:#fff; font:12px Arial;}
+#footer p a { color:#d9e0e8;}
+#feetimage { 	position: relative;
+	top: 10px;
+	width:284px; 
+	float:left; 
+	display:block; 
+	height:289px; 
+	background: url(images/feet.png) no-repeat;
+	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	
+	}
+#kidsbeachimage {
+	position: relative;
+	top: 10px;
+	width:325px; 
+	float:left; 
+	display:block; 
+	height:214px; 
+	background: url(images/kidsbeach.png) no-repeat;
+	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');
+	}
+#carseatimage {
+	position: relative;
+	top: 10px;
+	width:325px; 
+	float:left; 
+	display:block; 
+	height:325px; 
+	background: url(images/carseat.png) no-repeat; 
+	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');
+	}	#fatherandsonimage {	position: relative;	top: 10px;	width:300px; 	float:right; 	display:block; 	height:150px; 	background: url(images/dadandson2.png) no-repeat; 		border-radius: 15px;	right: 10px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');		}	#doulaimage {		position: relative;		width: 200px; 		height:348px; 		background: url(images/babybump.png) no-repeat;	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#cupcakeimage {	position: relative;		width:  200px;		height: 239px;		background: url(images/cupcake.png) no-repeat;	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#jamesrileyimage {		position: relative;		width:  200px;		height: 300px;		background: url(images/jamesriley.png) no-repeat;	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#twinsimage {		position: relative;		width:  200px;		height: 111px;		background: url(images/twins.png) no-repeat;	border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#walkingimage {		width:  180px;		height: 180px;		background: url(images/walking.png) no-repeat;	border-radius: 15px;		margin: 10px 0px 0px 50px		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');	}#pdfimage {		display: block;		background: url(images/pdficon_large.png) no-repeat;		width:32px;		height:32px;		}
+#container {
+	position: relative; 
+	width: 950px;/*850px; */
+	margin-left: auto; 
+	margin-right: auto;
+	height: 400px;
+	}	#mediumcontainer {	position: relative; 	width: 950px;/*850px; */	margin-left: auto; 	margin-right: auto;	height: 460px;	}	#largecontainer {	position: relative; 	width: 950px;/*850px; */	margin-left: auto; 	margin-right: auto;	height: 500px;	}	#verylargecontainer {	position: relative; 	width: 950px;/*850px; */	margin-left: auto; 	margin-right: auto;	height: 850px;	}#verylargecontainer h1 {		width: 900px;	}	
+#leftcolumn {
+    position: absolute;
+	top: 35px; 
+	left:50px; 
+	width: 350px;
+
+    }#leftcolumnservices {    position: absolute;	top: 5px; 	left:5px; 	width: 100px;    }#rightcolumnservices {    position: absolute;	width: 650px;	top: 8px;	right: 50px;     }	#leftcolumninsideservices {    position: absolute;	/*top: 35px; */	/*left:50px; */	width: 400px;    }	
+#rightcolumninsideservices {    position: absolute;	width: 200px;	/*top: 35px;*/	right: 0;     }	#rightcolumn {
+    position: absolute;
+	width: 350px;
+	top: 35px;
+	right: 100px; 
+    }
+#blocktext{
+	padding: 5px;
+	}	#blocktext p { 	line-height:18px; 	font: 14px "Comic Sans MS";	padding-bottom:0px;	color: #ffffff;	}
+#block {
+	height: auto;
+	width: 500px;
+	background-color: #28598A;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;		position: relative;		box-shadow: -2px -2px 2px 2px #888;		border-radius: 15px;		behavior: url('http://littleewoks.com.au/wp-content/themes/littleewoks/pie/PIE.htc');
+	}#lefthomecolumn {    position: absolute;	top: 10px; 	left:20px; 	width: 500px;    }#righthomecolumn {    position: absolute;	width: 200px;	top: 35px;	right: 160px;     }#serviceslist ul{	margin: 0;	padding: 5px;	list-style-type: none;	font: 14px "Comic Sans MS";	width: 180px; /* Main Menu Item widths */	border-radius: 15px;	background-color: #28598A} #serviceslist ul li{	position: relative;}/* Top level menu links style */#serviceslist ul li a{	display: block;	overflow: auto; /*force hasLayout in IE7 */	color: white;	font: 14px "Comic Sans MS";	text-decoration: none;	padding: 6px;}#serviceslist ul li a:hover{	background-color: #483578;	padding: -5px;	border-radius: 15px;}#serviceslist ul li.current_page_item a{	background-color: #483578;	padding: -5px;	border-radius: 15px;} /* Holly Hack for IE \*/* html #serviceslist ul li { float: left; height: 1%; }* html #serviceslist ul li a { height: 1%; }#bumptext {	text-align: center;	font:12px Arial; 	font-weight: 700;	}	#link {	color:blue; 	}	#usefullinkbox {	border:1px solid #dadada;	margin: 5px;	padding: 5px;}
+
