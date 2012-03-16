@@ -1,4 +1,3 @@
-<div class="clear"></div><!-- {clear} --></div><!-- {end content} -->
 
 	<div id="footer">
 		<p>
